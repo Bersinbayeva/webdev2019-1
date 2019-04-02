@@ -1,5 +1,3 @@
-n = int(input())
-i = 1
-while i<=n:
-	print(i, end=' ')
-	i *= 2
+b = int(input())
+a = int(input())
+print(a//b)

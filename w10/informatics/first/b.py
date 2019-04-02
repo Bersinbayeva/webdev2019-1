@@ -1,7 +1,3 @@
-n = int(input())
-i = 2
-while i<=n:
-	if n%i==0:
-		print(i)
-		break
-	i += 1
+n=int(input()) 
+print("the next number for the number {} is {}.".format(n,n+1)) 
+print("the previous number for the number {} is {}.".format(n,n-1))
